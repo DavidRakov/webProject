@@ -1,5 +1,5 @@
 export const fetchData = async () => {
-  const data = await fetch(`http://localhost:6554/api/products`);
+  const data = await fetch(`https://webservis.onrender.com/api/products`);
   const aa = await data.json();
   return aa;
 };
