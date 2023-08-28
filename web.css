@@ -1,0 +1,262 @@
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#full {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#plus:hover {
+  font-size: 35px;
+}
+
+#home:hover {
+  font-size: 35px;
+}
+
+#Navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffbf9b;
+}
+
+#Navigate {
+  display: flex;
+}
+
+#inventory {
+  padding: 10px;
+}
+
+.Navigate-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 95px;
+  border: 2px black solid;
+  margin: 5px;
+  border-radius: 95px;
+}
+
+#Search {
+  display: flex;
+  align-items: center;
+  border: 2px black solid;
+  border-radius: 85px;
+  width: 250px;
+  height: 30px;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+
+#header {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffdecb;
+  color: #4d4d4d;
+}
+
+#Search1 {
+  background: bottom;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+#Search-icon {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  border-radius: 0 25px 25px 0;
+  background: cornflowerblue;
+}
+
+#Search-icon:hover {
+  background-color: #d9d9d9;
+}
+
+#add-home {
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+}
+
+main {
+  min-height: 100vh;
+}
+#footer {
+  height: 20px;
+  position: sticky;
+  background-color: rgb(104, 62, 11);
+  bottom: 0;
+}
+
+#products {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px;
+  width: 175px;
+  border-radius: 10%;
+  margin: 10px;
+  box-shadow: 0px 0px 5px 5px red;
+  height: fit-content;
+}
+
+#productMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.number {
+  display: flex;
+  border: black 1px solid;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+#firstLine {
+  display: flex;
+  justify-content: space-between;
+}
+
+#productBox {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+  border: 2px black solid;
+  border-radius: 20px;
+  margin: 60px;
+  height: 100vh;
+  background-color: white;
+}
+
+#imgBox {
+  height: 95%;
+  /* border: black 1px solid; */
+  border-radius: 20px;
+  padding: 23px 10px;
+  /* background: white; */
+}
+#PR_img {
+  /* width: 50%; */
+  height: 100%;
+}
+#Details {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #f5ebeb;
+}
+
+#all_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exists {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 5px; */
+}
+
+.icons {
+  display: flex;
+  padding: 15px;
+}
+.line {
+  border: 2px red solid;
+  margin: 5px;
+  border-radius: 30%;
+}
+
+.title {
+  margin: 10px;
+  width: 150px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 15%;
+}
+
+.hover:hover {
+  background-color: #f9f5eb;
+  border: #e4dccf solid 1px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Details > h3 {
+  text-decoration: underline dotted red;
+}
+#iconsProduct > .material-icons {
+  padding: 5px;
+  margin: 5px;
+}
+#iconsProduct > .material-icons:hover {
+  background: #f9f5eb;
+  border: 1px #e4dccf solid;
+  border-radius: 50%;
+}
+
+#ProductPage {
+  font-size: 40px;
+}
+
+#main {
+  background-color: #f5ebeb;
+}
+
+#edit_product {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+}
