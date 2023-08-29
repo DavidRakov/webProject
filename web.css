@@ -28,6 +28,7 @@
 
 #Navigate {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #inventory {
