@@ -1,7 +1,7 @@
 export const fetchData = async () => {
   const data = await fetch(`https://webservis.onrender.com/api/products`);
-  const aa = await data.json();
-  return aa;
+  data = await data.json();
+  return data;
 };
 
 export const addOne = async (url, id) => {
